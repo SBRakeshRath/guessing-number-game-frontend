@@ -5,14 +5,14 @@ export default function Footer() {
       <div className="top">
         <div className="links">
           <a
-            href="https://github.com/SBRakeshRath/DB-less-OTP-Backend"
+            href="https://github.com/SBRakeshRath/guessing-number-game-backend"
             target="_blank"
           >
             <img src="https://img.icons8.com/material-outlined/24/000000/github.png" />
             Backend
           </a>
           <a
-            href="https://github.com/SBRakeshRath/DB-less-OTP-Frontend "
+            href="https://github.com/SBRakeshRath/guessing-number-game-frontend"
             target="_blank"
           >
             <img src="https://img.icons8.com/material-outlined/24/000000/github.png" />
