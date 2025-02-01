@@ -1,0 +1,79 @@
+.input-form {
+  padding: 20px 10px;
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .message {
+    padding: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 15px;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    input {
+      outline: none;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      flex-grow: 1;
+      border: 2px solid #8de69b;
+      border-radius: 5px;
+    }
+    .randomButton {
+      img {
+        height: 1.5rem;
+      }
+    }
+    button {
+      outline: none;
+      border: none;
+      background-color: #8de69b;
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      position: relative;
+
+      &:hover {
+        background-color: #80d08c;
+      }
+    }
+    .submitButton {
+      &:disabled {
+        background-color: #c7c7c7;
+        cursor: not-allowed;
+      }
+    }
+    .submitButton .addProgressLoader {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      opacity: 0.85;
+
+      left: 0;
+      .loader {
+        background-color: #0e5f1a;
+        width: 100%;
+        height: 100%;
+        cursor: not-allowed;
+        animation: loading 5s forwards;
+      }
+    }
+
+    @keyframes loading {
+      0% {
+        width: 100%;
+      }
+      100% {
+        width: 0%;
+      }
+    }
+  }
+}

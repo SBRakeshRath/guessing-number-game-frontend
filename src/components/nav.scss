@@ -1,0 +1,33 @@
+header {
+    background-color: #8DE69B;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    h3{
+        font-size: 1.5rem;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      font-size: 1rem;
+      padding: 5px 20px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background-color: #665250;
+      color: white;
+      border-radius: 5px;
+      &:hover {
+        background-color: #7c5d5b;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
