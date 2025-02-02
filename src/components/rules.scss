@@ -1,3 +1,21 @@
-.rules{
-    padding: 20px 20px;
+.rules {
+  padding: 20px 20px;
+
+  h2 {
+    margin: 10px 0px;
+  }
+  span {
+    padding: 0px 5px;
+    background-color: rgb(209 234 255);
+    border-radius: 3px;
+  }
+  li,p{
+    margin: 5px;
+  }
+  .prize{
+    background-color: #00ff15;
+  }
+  .italic{
+    font-style: italic;
+  }
 }
