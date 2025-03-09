@@ -88,7 +88,9 @@ export default function InputForm() {
           <img src="https://img.icons8.com/office/40/dice.png" alt="dice" />
         </button>
         <button type="submit" disabled={isLoading} className="submitButton ">
-          Submit
+          {
+            isLoading ? "Checking" : "guess"
+          }
           <div
             className="progressLoader"
             onClick={(e: React.MouseEvent<HTMLDivElement>) => {
